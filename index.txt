@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Construction Materials Code</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        td {
+            background-color: #fff;
+        }
+        tr:nth-child(even) td {
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Construction Materials Code for Inventory, Procurement, and Project Management</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Material Name</th>
+                <th>Category</th>
+                <th>Code</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cement</td>
+                <td>Concrete</td>
+                <td>CEM-100-01</td>
+                <td>Portland Cement, Standard Grade</td>
+            </tr>
+            <tr>
+                <td>Steel</td>
+                <td>Metal</td>
+                <td>STE-200-01</td>
+                <td>Reinforcement Steel, Grade 60</td>
+            </tr>
+            <tr>
+                <td>Timber (Wood)</td>
+                <td>Carpentry</td>
+                <td>TIM-300-01</td>
+                <td>2x4 Pine Lumber, Standard Grade</td>
+            </tr>
+            <tr>
+                <td>Insulation</td>
+                <td>Insulation</td>
+                <td>INS-400-01</td>
+                <td>Fiberglass Insulation Roll</td>
+            </tr>
+            <tr>
+                <td>Paint</td>
+                <td>Finishing</td>
+                <td>FIN-500-01</td>
+                <td>Exterior Paint, White, Oil-Based</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
